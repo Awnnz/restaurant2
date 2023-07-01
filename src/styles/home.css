@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px red solid;
+    height: 200px;
+}
+
+#menu {
+    color: red;
+    border: 1px black solid;
+    
+}
+
+#logo {
+    height: 200px;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border: 1px green solid;
+}

@@ -1,0 +1,5 @@
+#menu-container {
+    display: flex;
+    height: 70vh;
+    border: blue 1px solid;
+}
