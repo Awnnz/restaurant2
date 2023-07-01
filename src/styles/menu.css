@@ -1,11 +1,32 @@
 #menu-container {
     display: flex;
-    height: 70vh;
-    border: blue 1px solid;
-    background-color: red;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background: url('./../assets/images/menu-page-background.png');
+    background-size: cover;
 }
 
-.fade-in { animation: fadeIn 5s; }
+.fade-in { animation: fadeIn 5s; 
+    color: white;
+    font-size: 3rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+li:nth-of-type(1) {
+    position: relative;
+    bottom: 130px;
+    right: 30px;
+}
+
+li:nth-of-type(2) {
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
 
 @keyframes fadeIn {
     0% { opacity: 0; }

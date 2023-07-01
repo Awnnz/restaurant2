@@ -6,15 +6,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px white solid;
     height: 200px;
-    background-color: red;
+    background-color: black;
 }
 
-#menu {
+#menu, #about {
     color: white;
-    border: 1px black solid;
-    
+    font-size: 2rem;
 }
 
 #logo {
@@ -32,7 +30,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 85vh;
     border: 1px green solid;
     background-color: red;
+    font-size: 4rem;
 }
