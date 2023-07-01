@@ -6,4 +6,9 @@ export default function about() {
    aboutContainer.innerHTML = 'About page Text'
 
    content.appendChild(aboutContainer);
+
+   const pageLoad = document.createElement("div");
+    pageLoad.className="pageLoad";
+
+    content.appendChild(pageLoad);
   }

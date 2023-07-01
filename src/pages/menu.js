@@ -4,6 +4,7 @@ export default function menu() {
     menuContainer.id = 'menu-container';
  
    const list = document.createElement('ul');
+   list.classList.add('fade-in');
    menuContainer.appendChild(list);
 
    const menuItemCount = 3;
@@ -22,6 +23,11 @@ export default function menu() {
    }
 
 
-
    content.appendChild(menuContainer);
+
+   //    testing animations
+   const pageLoad = document.createElement("div");
+    pageLoad.className="pageLoad";
+
+    content.appendChild(pageLoad);
   }

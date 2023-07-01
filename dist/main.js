@@ -864,7 +864,7 @@ function menu() {
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "e0dbc060f92a7b7456f8.jpg";
+module.exports = __webpack_require__.p + "images/e0dbc060f92a7b7456f8.jpg";
 
 /***/ })
 

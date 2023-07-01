@@ -5,4 +5,8 @@ export default function home() {
   element.innerHTML = 'Welcome to the restaurant homepage!!!'
     
   content.appendChild(element);
+
+  const pageLoad = document.createElement("div");
+    pageLoad.className="pageLoad";
+    content.appendChild(pageLoad);
   }

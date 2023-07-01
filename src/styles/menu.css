@@ -2,4 +2,12 @@
     display: flex;
     height: 70vh;
     border: blue 1px solid;
+    background-color: red;
 }
+
+.fade-in { animation: fadeIn 5s; }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

@@ -3,6 +3,7 @@ import clear from './../functions/clear-page';
 import addHome from './main-page';
 import addMenu from './menu';
 import addAbout from './about';
+import pageLoad from '../functions/page-load';
 
 
 const headerDiv = function() {
@@ -29,18 +30,21 @@ const headerDiv = function() {
         clear();
         content.appendChild(header);
         addHome();
+        pageLoad();
     })
 
     menu.addEventListener('click', () => {
         clear();
         content.appendChild(header);
         addMenu();
+        pageLoad();
     })
 
     about.addEventListener('click', () => {
         clear();
         content.appendChild(header);
         addAbout();
+        pageLoad();
     })
 
     return header;

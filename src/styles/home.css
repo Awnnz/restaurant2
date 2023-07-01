@@ -6,12 +6,13 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px red solid;
+    border: 1px white solid;
     height: 200px;
+    background-color: red;
 }
 
 #menu {
-    color: red;
+    color: white;
     border: 1px black solid;
     
 }
@@ -20,10 +21,18 @@
     height: 200px;
 }
 
+#logo:hover {
+    height: 250px;
+    opacity: 50%;
+    transition: opacity 1s 1s, height 1s 1s;
+    
+}
+
 #home {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50vh;
     border: 1px green solid;
+    background-color: red;
 }

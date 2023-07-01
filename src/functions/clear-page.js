@@ -1,4 +1,4 @@
-const render = function(){
+const clear = function(){
     const content = document.querySelector('.content');
     
     while (content.children.length > 0) {
@@ -6,4 +6,4 @@ const render = function(){
     }
 }
 
-export default render;
+export default clear;
